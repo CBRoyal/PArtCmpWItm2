@@ -1,0 +1,89 @@
+html{
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.dKz7ru7-DKlfIM83dvbpLgHaHa?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3");
+}
+h1{ text-shadow: 2px 2px #0000ff;
+    font-size: 50pt;
+    color:#da70d6;
+    border: 5px solid #ff0000;
+}
+p, li{
+    font-size:20pt;
+}
+#header{
+    text-shadow: 2px 2px #0000ff;
+    font-size: 50pt;
+    color:#da70d6;
+}
+nav{
+    text-shadow: 1px 0px #ffa500;
+    font-size: 20pt;
+    border: 5px solid #fa8072;
+}
+#description, #special,#artpieces{
+    background-color: #ffebcd;
+    padding:15px 10px;
+    color:#8b4513;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size:65 pt;
+    border:5px solid #800008;
+}
+#contact{
+    text-shadow: 2px 2px #0000ff;
+    font-size: 20pt;
+    color:#da70d6;
+    border: 5px solid #808000;
+}
+#home{
+    position: initial;
+    left: 100px;
+    top: 150;
+    text-shadow: 2px 2px #0000ff;
+    color:#da70d6;
+    font-size: 30pt;
+}
+#price{
+    text-shadow: 2px 2px #0000ff;
+    color:#da70d6;
+    font-size: 30pt;
+}
+#ninetalesDescription, #bondDescription{
+    background-color: #ffebcd;
+    padding:15px 10px;
+    color:#8b4513;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size:105 pt;
+    border:5px solid #800008;
+}
+#email{
+    text-shadow: 2px 2px #ffff00;
+    font-size: 20pt;
+    color:#00ffff;
+}
+#ninetales{
+    background-color: #00ffff;
+    color:#ff4500;
+}
+#northernLights{
+    background-color:#00008b;
+    color:#00ffff;
+}
+#family{
+    background-color:#d2691e;
+    color:#daa520;
+}
+#autumn{
+    background-color: #ff4500;
+    color:#cd853f;
+}
+#hq{
+    background-color:#696969;
+    color:#7cfc00;
+}
+#playPark{
+    background-color:#7cfc00;
+    color:#fa8072;
+}
+#bonding{
+    background-color:#87cefa;
+    color:#ffff00;
+}
