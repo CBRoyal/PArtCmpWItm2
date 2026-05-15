@@ -38,7 +38,7 @@ h1{
 p, li{
     font-size: 20pt;
 }
-#the-ninetales-of-fire-and-ice-artpiece{
+#the-bonding-of-two-worlds-artpiece{
     grid-area: image;
 }
 .pokemon-art-shopping-website-headers{
@@ -134,7 +134,7 @@ p, li{
     background-position: center;
     border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
 }
-#ninetalesDescription{
+#bondDescription{
     grid-area: description;
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
     padding:15px 10px;
