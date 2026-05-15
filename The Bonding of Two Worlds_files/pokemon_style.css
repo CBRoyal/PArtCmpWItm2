@@ -1,89 +1,175 @@
+:root{
+    --pokemon-art-shopping-website-title-shadow-color: #0000ff;
+    --pokemon-art-shopping-website-title-color: #da70d6;
+    --pokemon-art-shopping-website-smeargle-tail-color: #8b6b4f;
+    --pokemon-art-shopping-website-smeargle-tail-tip-color: #27d96b;
+    --pokemon-art-shopping-website-smeargle-tail-tip-box-shadow-color: #1d6f94;
+    --pokemon-art-shopping-website-title-border-color: #ff0000;
+    --pokemon-art-shopping-website-purchase-buttons-border-color: #ffffff;
+    --pokemon-art-shopping-website-box-bg-color: #ffebcd; 
+    --pokemon-art-shopping-website-box-color:  #8b4513;
+    --pokemon-art-shopping-website-box-border-color: #800008;
+    --pokemon-art-shopping-website-contact-section-border-color: #808000;
+    --pokemon-art-shopping-website-email-shadow-color: #ffff00;
+    --pokemon-art-shopping-website-email-link-color: #87cefa;
+}
 html{
     background-image: url("https://tse3.mm.bing.net/th/id/OIP.dKz7ru7-DKlfIM83dvbpLgHaHa?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3");
 }
-h1{ text-shadow: 2px 2px #0000ff;
+#pokemon-art-shopping-website-ninetales-webpage{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 5% 10% 40% 30% 15%;
+    grid-template-areas:
+    "home-link home-link"
+    "title title"
+    "image purchase"
+    "description description"
+    "contact contact";
+}
+h1{ 
+    grid-area: title;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     font-size: 50pt;
-    color:#da70d6;
-    border: 5px solid #ff0000;
+    color: var(--pokemon-art-shopping-website-title-color);
+    border: 5px solid var(--pokemon-art-shopping-website-title-border-color);
+    margin-bottom: 10px;
 }
 p, li{
-    font-size:20pt;
-}
-#header{
-    text-shadow: 2px 2px #0000ff;
-    font-size: 50pt;
-    color:#da70d6;
-}
-nav{
-    text-shadow: 1px 0px #ffa500;
     font-size: 20pt;
-    border: 5px solid #fa8072;
 }
-#description, #special,#artpieces{
-    background-color: #ffebcd;
-    padding:15px 10px;
-    color:#8b4513;
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    font-size:65 pt;
-    border:5px solid #800008;
+#the-ninetales-of-fire-and-ice-artpiece{
+    grid-area: image;
+}
+.pokemon-art-shopping-website-headers{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+    color: var(--pokemon-art-shopping-website-title-color);
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
 }
 #contact{
-    text-shadow: 2px 2px #0000ff;
-    font-size: 20pt;
-    color:#da70d6;
-    border: 5px solid #808000;
+    grid-area: contact;
+    text-shadow: 1px 1px var(--pokemon-art-shopping-website-title-shadow-color);
+    font-size: 20pt;    
+    color: var(--pokemon-art-shopping-website-title-color);
+    background-color: var(--pokemon-art-shopping-website-box-bg-color);
+    border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
+    margin-top: 5px;
 }
 #home{
-    position: initial;
+    grid-area: home-link;
+    position: relative;
+    display: flex;
+    align-items: center;
     left: 100px;
     top: 150;
-    text-shadow: 2px 2px #0000ff;
-    color:#da70d6;
+    gap: 12px;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
+}
+.smeargle-tail{
+    width: 80px;
+    overflow: visible;
+}
+.smeargle-tail-group{
+    transform-origin: 40px 60px;
+    animation: tailWhip 1s ease-in-out infinite;
+}
+.tail{
+    fill: none;
+    stroke: var(--pokemon-art-shopping-website-smeargle-tail-color);
+    stroke-width: 18;
+    stroke-linecap: round;
+}
+.smeargle-tail-tip{
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color); 
+}
+.paint-drops{
+    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
+    opacity: 0;      
+}
+.paint-drop1{
+    animation: paintDrip1 2s infinite;
+}
+.paint-drop2{
+    animation: paintDrip2 2s infinite;
+}
+.paint-drop3{
+    animation: paintDrip3 2s infinite;
+}
+.paint-drop4{
+    animation: paintDrip4 2s infinite;
+}
+#home:hover .smeargle-tail{
+    animation: tailWhip 0.7s ease-in-out infinite alternate;
+}
+#home:hover .paint-drop1{
+    animation: paintSplat1 0.8s ease-out infinite;
+}
+#home:hover .paint-drop2{
+    animation: paintSplat2 0.8s ease-out infinite 0.1s;
+}
+#home:hover .paint-drop3{
+    animation: paintSplat3 0.8s ease-out infinite 0.2s;
+}
+#home:hover .paint-drop4{
+    animation: paintSplat4 0.8s ease-out infinite 0.3s;
+}
+#purchaseBox{
+    grid-area: purchase;
+    margin-left: 30px;
 }
 #price{
-    text-shadow: 2px 2px #0000ff;
-    color:#da70d6;
+    text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
+    color: var(--pokemon-art-shopping-website-title-color);
     font-size: 30pt;
 }
-#ninetalesDescription, #bondDescription{
-    background-color: #ffebcd;
+.pokemon-art-shopping-website-purchase-buttons{
+    padding: 15px 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+    background-image: url("rainbow_background.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid var(--pokemon-art-shopping-website-purchase-buttons-border-color)
+}
+#ninetalesDescription{
+    grid-area: description;
+    background-color: var(--pokemon-art-shopping-website-box-bg-color);
     padding:15px 10px;
-    color:#8b4513;
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    font-size:105 pt;
-    border:5px solid #800008;
+    color: var(--pokemon-art-shopping-website-box-color);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size:105pt;
+    border:5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
-    text-shadow: 2px 2px #ffff00;
+    text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
     font-size: 20pt;
-    color:#00ffff;
+    color: var(--pokemon-art-shopping-website-email-link-color);
 }
-#ninetales{
-    background-color: #00ffff;
-    color:#ff4500;
+@keyframes tailWhip{
+    0%{transform: rotate(-18deg);}
+    50%{transform: rotate(18deg);}
+    100%{transform: rotate(-18deg);}
 }
-#northernLights{
-    background-color:#00008b;
-    color:#00ffff;
+@keyframes paintDrip1{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(36px, -26px) scale(0.5)}
 }
-#family{
-    background-color:#d2691e;
-    color:#daa520;
+@keyframes paintDrip2{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(28px, 23px) scale(0.8)}  
 }
-#autumn{
-    background-color: #ff4500;
-    color:#cd853f;
+@keyframes paintDrip3{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(52px, -12px) scale(0.6)}  
 }
-#hq{
-    background-color:#696969;
-    color:#7cfc00;
-}
-#playPark{
-    background-color:#7cfc00;
-    color:#fa8072;
-}
-#bonding{
-    background-color:#87cefa;
-    color:#ffff00;
+@keyframes paintDrip4{
+    25%{opacity: 0; transform: translate(0,0) scale(1);}
+    50%{opacity: 1;}
+    100%{opacity: 0; transform: translate(64px, 8px) scale(0.4)}  
 }
