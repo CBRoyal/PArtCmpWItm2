@@ -74,7 +74,7 @@ p, li{
 }
 .smeargle-tail-group{
     transform-origin: 40px 60px;
-    animation: tailWhip 1.8s ease-in-out infinite;
+    animation: tailWhip 2s ease-in-out infinite;
 }
 .tail{
     fill: none;
