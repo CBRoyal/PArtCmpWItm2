@@ -139,7 +139,7 @@ p, li{
     padding:15px 10px;
     color: var(--pokemon-art-shopping-website-box-color);
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size:105pt;
+    font-size: 105pt;
     border:5px solid var(--pokemon-art-shopping-website-box-border-color);
 }
 #email{
