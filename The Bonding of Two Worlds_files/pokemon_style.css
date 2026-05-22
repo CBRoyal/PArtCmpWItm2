@@ -62,7 +62,7 @@ p, li{
     position: relative;
     display: flex;
     align-items: center;
-    left: 100px;
+    left: 50px;
     gap: 12px;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
