@@ -17,6 +17,7 @@ html{
     background-image: url("https://tse3.mm.bing.net/th/id/OIP.dKz7ru7-DKlfIM83dvbpLgHaHa?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3");
 }
 #pokemon-art-shopping-website-the-bonding-of-two-worlds-webpage{
+    width: 100%;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 5% 10% 40% 30% 15%;
