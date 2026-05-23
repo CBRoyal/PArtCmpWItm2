@@ -35,7 +35,6 @@ html{
     font-size: 50pt;
     color: var(--pokemon-art-shopping-website-title-color);
     border: 5px solid var(--pokemon-art-shopping-website-title-border-color);
-    padding-right: -45px;
     margin-bottom: 10px;
 }
 p, li{
