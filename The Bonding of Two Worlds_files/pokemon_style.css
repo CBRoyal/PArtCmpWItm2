@@ -59,6 +59,7 @@ p, li{
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
     width: 95%;
     margin-top: 5px;
+    margin-left: 5px;
 }
 #home{
     grid-area: home-link;
