@@ -167,6 +167,7 @@ p, li{
     #contact{
         padding-left: 5px;
         margin-right: 10px;
+        width: 90%;
     }
 }
 @media (max-width: 500px){
