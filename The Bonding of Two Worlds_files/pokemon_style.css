@@ -29,7 +29,7 @@ html{
     "description description"
     "contact contact";
 }
-h1{ 
+#the-bonding-of-two-worlds-webpage-title{
     grid-area: title;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     font-size: 50pt;
