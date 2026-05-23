@@ -138,7 +138,7 @@ p, li{
 }
 @media (max-width: 800px){
     #home{
-        margin-right: 45px;
+        margin-right: 10px;
     }
     h1{
         height: 102%;
@@ -153,7 +153,7 @@ p, li{
         margin-right: 15px;
     }
     #pokemon-art-shopping-website-purchase-button{
-        margin-right: 5px;
+        margin-right: 35px;
     }
     h1, #bondDescription{
         width: 90%;
