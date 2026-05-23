@@ -89,7 +89,6 @@ p, li{
 }
 .smeargle-tail{
     transform-origin: 80% 20%;
-    animation: tailWhip 0.5s ease-in-out infininte alternate;
 }
 .smeargle-tail-stem{
     stroke: var(--pokemon-art-shopping-website-smeargle-tail-color);
@@ -102,22 +101,6 @@ p, li{
 }
 .smeargle-tail-shine{
     fill: var(--pokemon-art-shopping-website-smeargle-tail-shine-color);
-}
-.paint-drops{
-    fill: var(--pokemon-art-shopping-website-smeargle-tail-tip-color);
-    opacity: 0;      
-}
-#home:hover .paint-drop1{
-    animation: paintDrip1 0.7s infinite;
-}
-#home:hover .paint-drop2{
-    animation: paintDrip2 0.7s infinite 0.1s;
-}
-#home:hover .paint-drop3{
-    animation: paintDrip3 0.7s infinite 0.2s;
-}
-#home:hover .paint-drop4{
-    animation: paintDrip4 0.7s infinite 0.3s;
 }
 #purchaseBox{
     grid-area: purchase;
@@ -150,31 +133,6 @@ p, li{
     text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
     font-size: 20pt;
     color: var(--pokemon-art-shopping-website-email-link-color);
-}
-@keyframes tailWhip{
-    0%{transform: rotate(-18deg);}
-    50%{transform: rotate(18deg);}
-    100%{transform: rotate(-18deg);}
-}
-@keyframes paintDrip1{
-    25%{opacity: 0; transform: translate(0,0) scale(1);}
-    50%{opacity: 1;}
-    100%{opacity: 0; transform: translate(36px, -26px) scale(0.5)}
-}
-@keyframes paintDrip2{
-    25%{opacity: 0; transform: translate(0,0) scale(1);}
-    50%{opacity: 1;}
-    100%{opacity: 0; transform: translate(28px, 23px) scale(0.8)}  
-}
-@keyframes paintDrip3{
-    25%{opacity: 0; transform: translate(0,0) scale(1);}
-    50%{opacity: 1;}
-    100%{opacity: 0; transform: translate(52px, -12px) scale(0.6)}  
-}
-@keyframes paintDrip4{
-    25%{opacity: 0; transform: translate(0,0) scale(1);}
-    50%{opacity: 1;}
-    100%{opacity: 0; transform: translate(64px, 8px) scale(0.4)}  
 }
 @media (max-width: 800px){
     #home{
