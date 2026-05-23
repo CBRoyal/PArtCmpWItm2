@@ -35,6 +35,7 @@ html{
     font-size: 50pt;
     color: var(--pokemon-art-shopping-website-title-color);
     border: 5px solid var(--pokemon-art-shopping-website-title-border-color);
+    width: 90%;
     margin-bottom: 10px;
 }
 p, li{
@@ -56,7 +57,7 @@ p, li{
     color: var(--pokemon-art-shopping-website-title-color);
     background-color: var(--pokemon-art-shopping-website-box-bg-color);
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
-    padding-right: -125px;
+    width: 95%;
     margin-top: 5px;
 }
 #home{
@@ -64,7 +65,7 @@ p, li{
     position: relative;
     display: inline-flex;
     align-items: center;
-    left: 50px;
+    margin-left: 50px;
     gap: 10px;
     text-shadow: 2px 2px var(--pokemon-art-shopping-website-title-shadow-color);
     color: var(--pokemon-art-shopping-website-title-color);
@@ -126,7 +127,9 @@ p, li{
     color: var(--pokemon-art-shopping-website-box-color);
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 105pt;
+    width: 90%;
     border: 5px solid var(--pokemon-art-shopping-website-box-border-color);
+    margin-left: 20px;
 }
 #email{
     text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
