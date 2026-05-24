@@ -60,7 +60,7 @@ p, li{
     border: 5px solid var(--pokemon-art-shopping-website-contact-section-border-color);
     width: 95%;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 #home{
     grid-area: home-link;
@@ -131,7 +131,7 @@ p, li{
     font-size: 105pt;
     width: 90%;
     border: 5px solid var(--pokemon-art-shopping-website-box-border-color);
-    margin-left: 20px;
+    margin-left: 25px;
 }
 #email{
     text-shadow: 1px 1px var(--pokemon-art-shopping-website-email-shadow-color);
