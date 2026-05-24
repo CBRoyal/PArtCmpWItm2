@@ -43,6 +43,7 @@ p, li{
 }
 #the-bonding-of-two-worlds-artpiece{
     grid-area: image;
+    margin-left: 5px;
 }
 .pokemon-art-shopping-website-headers{
     font-family: Brush Script MT, Brush Script Std, cursive;
