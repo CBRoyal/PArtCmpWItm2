@@ -138,7 +138,7 @@ p, li{
     font-size: 20pt;
     color: var(--pokemon-art-shopping-website-email-link-color);
 }
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
     #home{
         margin-right: 10px;
     }
@@ -168,7 +168,7 @@ p, li{
         width: 90%;
     }
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     #pokemon-art-shopping-website-the-bonding-of-two-worlds-webpage{
         grid-template-columns: 100%;
         grid-template-rows: 5% 10% 35% 10% 30% 10%;
